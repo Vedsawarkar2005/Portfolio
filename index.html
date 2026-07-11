@@ -7,18 +7,41 @@
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css" />
   <title>Ved Sawarkar' Portfolio</title>
+  <style>
+    body {
+      background-color: #181C14;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      height: 5vh
+    }
+    .navbox {
+      background-color: #3C3D37;
+      height: inherit;
+      width: 50vw;
+      border-bottom-left-radius: 15px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .nav-link{
+      color: #fff;
+      font-family: Playfair;
+    }
+    .LightMode {
+      width: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <nav>
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      </ul>
-    </header>
+  <nav class="container-fuild">
+      <img src="./assets/Icons/LightButton.svg" alt="LightMode" class="LightMode">
+      <div class="navbox">
+        <a href="*" class="nav-link">Home</a>
+        <a href="*" class="nav-link">About</a>
+        <a href="*" class="nav-link">Project</a>
+        <a href="*" class="nav-link">Contect</a>
+      </div>
   </nav>
 </body>
 </html>
