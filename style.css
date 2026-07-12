@@ -108,3 +108,41 @@
     .container > .SkillsTitle {
         margin-left: 48%;
     }
+    .Projects {
+        height: 100vh;
+        font-family: 'Playfair', sans-serif;
+        color: #ECDFCC; 
+        display: flex;
+        flex-direction: column;
+    }
+    .Projects > h1 {
+        font-size: 4rem;
+        margin: 6vh;
+    }
+    .cards {
+        align-self: center;
+        margin-top: 10vh;
+        font-family: 'Playfair', sans-serif;
+        color: #ECDFCC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-item {
+        background: #D9D9D9;
+        height: 30vh;
+        width: 20vw;
+        border-radius: 16px;
+        margin: 2.5vw;
+    }
+    .card-item > image {
+        height: inherit;
+        width: inherit;
+        border: inherit;
+        border-radius: inherit;
+    }
+    .cards > button {
+        color: #ECDFCC;
+        font-family: 'Playfair', sans-serif;
+        font-size: 5rem;
+    }
