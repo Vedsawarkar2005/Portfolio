@@ -1,6 +1,7 @@
 @font-face {
-    font-family: ndot;
-    src: url(./assets/fonts/ndot-47-inspired-by-nothing.otf/ndot-47-inspired-by-nothing.otf);
+    font-family: 'Ndot';
+    src: url('assets/fonts/ndot-47-inspired-by-nothing.otf') format('opentype');
+    font-display: swap;
 }
 @font-face {
     font-family: Playfair;
@@ -27,7 +28,7 @@
       justify-content: space-around;
     }
     .nav-link{
-      color: #fff;
+      color: #EAECE9;
       font-family: Playfair;
     }
     .LightMode {
@@ -65,11 +66,45 @@
         border-radius: inherit;
     }
     .PortfolioText {
-        font-family: ndot;
+        font-family: 'Playfair', sans-serif;
         font-size: 130px;
         color: #ECDFCC;
         margin-right: 5vw;
     }
     .HP-2 span {
         font-size: xx-large;
+    }
+    hr {
+        border: 1px solid #EAECE9;
+        margin: 0 auto;
+    }
+    .AboutMe {
+        height: 100vh;
+        font-family: 'Playfair', sans-serif;
+        color: #ECDFCC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .AboutMe > .container {
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: 1fr 5vw 1fr;
+    }
+    .separator {
+        grid-row: span 2;      
+        background: #ECDFCC;
+        width: 2px;
+        margin: 0 auto;
+    }
+    .container > p {
+        width: 20vw;
+        margin-left: 48%;
+    }
+    .container > h1 {
+        font-size: 4rem;
+        margin-bottom: 6vh;
+    }
+    .container > .SkillsTitle {
+        margin-left: 48%;
     }
